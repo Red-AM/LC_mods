@@ -1,0 +1,84 @@
+/*  LETHAL COMPANY MOD - ADDITIONAL SUITS
+
+    this file contains all custom suit definitions used for the additional suits mod
+    to add a new suit, simply add a new entry to this listing & add your texture image to the resources folder
+
+    entry breakdown:
+      - suitID: unique identifier used in-game to identify the item (doesn't do anything atm, but will be needed for shop unlocks)
+      - suitName: name that will be displayed when the player hovers over the suit in game
+      - suitTexture: name of the texture image that will be used to render the suit (include file extension)
+*/
+{
+  "unlockableSuits": [
+    {
+      "suitID": "Black_Suit",
+      "suitName": "Black Suit",
+      "suitTexture": "1_Black.png"
+    },
+    {
+      "suitID": "Blue_Suit",
+      "suitName": "Blue Suit",
+      "suitTexture": "2_Blue.png"
+    },
+    {
+      "suitID": "Cyan_Suit",
+      "suitName": "Cyan Suit",
+      "suitTexture": "3_Cyan.png"
+    },
+    {
+      "suitID": "Dandelion_Suit",
+      "suitName": "Dandelion Suit",
+      "suitTexture": "4_Dandelion.png"
+    },
+    {
+      "suitID": "Dark_Red_Suit",
+      "suitName": "Dark Red Suit",
+      "suitTexture": "5_Dark_Red.png"
+    },
+    {
+      "suitID": "Gray_Suit",
+      "suitName": "Gray Suit",
+      "suitTexture": "6_Gray.png"
+    },
+    {
+      "suitID": "Magenta_Suit",
+      "suitName": "Magenta Suit",
+      "suitTexture": "7_Magenta.png"
+    },
+    {
+      "suitID": "Neon_Green_Suit",
+      "suitName": "Neon Green Suit",
+      "suitTexture": "8_Neon_Green.png"
+    },
+    {
+      "suitID": "Olive_Green_Suit",
+      "suitName": "Olive Green Suit",
+      "suitTexture": "9_Olive_Green.png"
+    },
+    {
+      "suitID": "Pink_Suit",
+      "suitName": "Pink Suit",
+      "suitTexture": "10_Pink.png"
+    },
+    {
+      "suitID": "Purple_Suit",
+      "suitName": "Purple Suit",
+      "suitTexture": "11_Purple.png"
+    },
+    {
+      "suitID": "Red_Suit",
+      "suitName": "Red Suit",
+      "suitTexture": "12_Red.png"
+    },
+    {
+      "suitID": "Sky_Blue_Suit",
+      "suitName": "Sky Blue Suit",
+      "suitTexture": "13_Sky_Blue.png"
+    },
+    {
+      "suitID": "White_Suit",
+      "suitName": "White Suit",
+      "suitTexture": "14_White.png"
+    }
+  ]
+}
