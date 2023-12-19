@@ -1,7 +1,6 @@
 # LateGameUpgrades
 ***INSTALL THE DEPENDENCIES***  
 ***ALL CLIENTS NEED THIS MOD INSTALLED***  
-***ALL CLIENTS MUST HAVE THE SAME CONFIG***  
 
 *Everything about this mod can be changed via the config "com.malco.lethalcompany.moreshipupgrades.config"*
 
@@ -16,40 +15,33 @@ This adds 18 powerful ship upgrades to make lategame last longer and remedy havi
 If using V40 - downgrade to V2.1.0
 
 ## V 2.6.0
-
-### **[ Upgrades & Items ]**
-- Protein Powder
-    - Increase damage done with shovels (and signs).
-- Interns
-    - Spectate dead player, enter intern into terminal, you will be charged (by default) 1000 credits and it will revive them.
-    - Revived players are teleported to a random location in the facility.
-    - This should be pretty stable but I noticed if I did it over and over and over again I could run into issues.
-- Peeper
-    - Expensive piece of equipment that looks at coil heads for you.
-- Walkie GPS
-    - Upgrades walkie talkies to display the time and your position.
-    - Useful for fog
-### **[ General Changes / Additions ]**
-- Upgrades now go on sale
-    - The sale is client side (everyone sees different things on sale).
-    - This is to encourage people to take on different roles than they normally would.
-- Config now has an option to turn all upgrades to shared upgrades.
-- Info command improved
-    - It now shows the cost and effect of each level of upgrade
-    - Scales with the number of tiers you set in the config
-- Lots of little fixes
-- Pager removed :(
-### **[ Recovery ]**
-- `Unload upgrade_name` command
-    - will remove the effects of that upgrade from your client.
-- `load steam_name` command
-    - will copy the upgrades that steam_name has to your client.
-
-### **[ Upcoming ]**
-
+### **[ Changes & New ]**
 - Config syncing
-- More complex / meaningful tiered upgrades.
-- More items and Upgrades.
+    - All config options are now synced excluding ***item*** prices and enable/disable status.
+    - Options regarding their behaviour are still synced.
+    - Changes to Peeper, Teles, and Night Vision goggles will have to be manually synced!
+    - Everything else is automatic.
+- Intern fixes
+    - Weather persisting when inside facility.
+    - Not being able to teleport intern.
+    - normal HUD not enabling.
+- Config options
+    - Enable/disable splashscreen
+    - If Misc/Shared Upgrades = True, late joining players will copy the hosts upgrades.
+- Small fixes
+    - Protein powder saving
+    - sales only refreshing for host
+        - Also added it so if shared upgrades = true sales are synced
+    - fixed info for a few upgrades
+- New teleporter models from Sad Amazon
+
+## Compatibility
+
+### This mod changes and patches a lot so problems may arise.  
+- Bigger Lobby and More Company are more or less compatible but credit desync can arise  
+- LC Better Saves is currently incompatible  
+- Door fix causes an issue with locksmith  
+
 
 ## Community
 
@@ -58,13 +50,6 @@ If using V40 - downgrade to V2.1.0
 Feel free to [create a pull request](https://github.com/Malcolm-Q/LC-LateGameUpgrades) and help with the mod.
 
 Anyone who contributes in any way is greatly appreciated. People willing to contribute 3D models are needed.
-
-## Compatibility
-
-### This changes and patches a lot so problems may arise.  
-- Bigger Lobby and More Company are more or less compatible but credit desync can arise  
-- LC Better Saves is currently incompatible but I made a PR and am awaiting the update on thunderstore :)  
-- Door fix causes an issue with locksmith  
 
 ## Credit
 - GitHub Contributors
