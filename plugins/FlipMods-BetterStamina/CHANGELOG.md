@@ -16,3 +16,5 @@
 + Added a movement speed modifier to the configs.
 # 1.2.1
 + Fixed a bug where weight was not updating correctly when dropping or storing items.
+# 1.2.2
++ Temporarily disabling adjusting weight penalty while I fix its issues.

@@ -11,12 +11,14 @@ Config options for:
 - 'AdjustScreenPositionXaxis' & 'AdjustScreenPositionYaxis' are to help adjust the ui on the screen's position (recommend adjutments for ultrawide users or also downloading the ultrawide mod)
 - 'ShowTotalOnShipOnly' allows you to see the scanned amount only on the ship
 - 'ItemScanningUICooldown' allows you to adjust how long the UI Stays on screen
+- 'FontSize' allows you to adjust the size of the text on screen. However this may have to be done manually in the Bepinex config folder
 
 recent changes
 - Added config option 'ShowTotalOnShipOnly'
 - Added config option 'CalculateForQuota'
 - Added config option 'ShowOnShipOnly'
 - Added config option 'ItemScanningUICooldown'
+- Added config option 'FontSize'
 
 Small bug fixes
 - no longer being able to peak through walls
@@ -25,3 +27,6 @@ Small bug fixes
 - made the calculating of scrap smarter, added braincells to the scanner
 - forced the calculator to go to school to become smarter
 - the calculator has been tutored
+
+
+Bugs and errors? Head to the Lethal Company Discord -> Mod releases -> Better Item Scan
