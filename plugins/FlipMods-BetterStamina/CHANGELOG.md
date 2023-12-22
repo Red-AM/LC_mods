@@ -18,3 +18,9 @@
 + Fixed a bug where weight was not updating correctly when dropping or storing items.
 # 1.2.2
 + Temporarily disabling adjusting weight penalty while I fix its issues.
+# 1.3.0
++ All stamina/speed/weight values will remain vanilla unless in a lobby where the host has the mod, or if you are the host.<br>
+No more more random players with infinite stamina or speed in your unmodded lobby. (sorry about that)
++ Fixed adjusted weight values affecting UI and other elements. (hopefully)
+# 1.3.1
++ Hotfix for errors in update function.

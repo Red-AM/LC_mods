@@ -1,8 +1,7 @@
 {
   "name": "LC_API",
-  "version_number": "2.2.0",
-  "website_url": "",
+  "version_number": "3.0.0",
+  "website_url": "https://github.com/u-2018/LC-API",
   "description": "Multipurpose modding API for Lethal Company",
-  "dependencies": [
-  ]
+  "dependencies": []
 }

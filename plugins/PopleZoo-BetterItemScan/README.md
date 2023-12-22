@@ -32,3 +32,7 @@ Small bug fixes
 - you can now only scan scrap items not just items with scrap values
 
 Bugs and errors? Head to the Lethal Company Discord -> Mod releases -> Better Item Scan
+
+NOTICE:
+
+If you are updating from 2.1.4 & 2.1.5 please check ur configs
