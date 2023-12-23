@@ -90,3 +90,6 @@ Networking - Easily send data across the network to sync data between clients
 - Added `Player` class for interacting with players easily
 
 - `ModdedServer.GameVersion` will now contain the base game version even if LC API modified the version to set modded only
+
+# Version 3.0.1
+- Fixed `Player.HostPlayer`

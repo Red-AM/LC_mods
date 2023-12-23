@@ -24,3 +24,5 @@ No more more random players with infinite stamina or speed in your unmodded lobb
 + Fixed adjusted weight values affecting UI and other elements. (hopefully)
 # 1.3.1
 + Hotfix for errors in update function.
+# 1.3.2
++ Updated my outdated description to make more sense for setting configs.
