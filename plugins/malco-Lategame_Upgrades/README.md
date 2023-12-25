@@ -15,6 +15,14 @@ This adds 24 powerful ship upgrades to make lategame last longer and remedy havi
 
 If using V40 - downgrade to V2.6.0
 
+## V 2.8.2
+- fixes, mainly
+    - Hunter spawning tier 1 drops
+    - Hunter drops prices not syncing
+    - Medkit not removing critical injury
+    - stimpack not syncing health
+    - stimpack getting clamped back down to 100 on damage
+
 ## V 2.8.0
 - Hunter
     - Allows you to collect and sell samples from dead monsters
