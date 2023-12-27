@@ -5,7 +5,7 @@
 ## Credits:
 - [Evaisa](https://evaisa.dev/) 
 	- Making the mod and api and everything.
-	- Hi I'm eba.
+	- Hi I'm eba.  
 - [Bobilka](https://www.artstation.com/bobilka)   
 	- Models  
 	- Ideas  
@@ -13,7 +13,8 @@
 	- Testing  
 - Antlers  
 	- Models  
-	- Cookie model 
+	- Cookie model  
+	- Testing  
 - LocalHyena  
 	- Models  
 	- Textures  
