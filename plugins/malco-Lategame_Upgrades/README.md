@@ -11,17 +11,22 @@ Type `lategame` in the terminal to see mod info!
 Type `lategame store` or `lgu` to view current upgrade status and cost.  
 Type `info <upgrade>` for dynamic info.
 
-This adds 24 powerful ship upgrades to make lategame last longer and remedy having a bunch of money and nothing to spend it on.
+This adds 23 powerful ship upgrades to make lategame last longer and remedy having a bunch of money and nothing to spend it on.
 
 If using V40 - downgrade to V2.6.0
 
-## V 2.8.2
-- fixes, mainly
-    - Hunter spawning tier 1 drops
-    - Hunter drops prices not syncing
-    - Medkit not removing critical injury
-    - stimpack not syncing health
-    - stimpack getting clamped back down to 100 on damage
+## V 2.8.3
+- additions
+    - Bigger lungs new behaviours (increased stamina regen decreased jump cost)
+    - Light Footed has been merged into running shoes (activates on final upgrade)
+    - Beekeeper final upgrade increases hive price
+    - Discombobulator does damage final upgrade
+- fixes
+    - Peeper fix
+    - Night vision alternate behaviour fixes
+    - portable tele drop items fix
+    - Protein powder spider fix
+    - more
 
 ## V 2.8.0
 - Hunter
