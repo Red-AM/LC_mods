@@ -15,6 +15,8 @@ This adds 23 powerful ship upgrades to make lategame last longer and remedy havi
 
 If using V40 - downgrade to V2.6.0
 
+Try my new Viscera Cleanup inspired overhaul: [Cleanup Company](https://thunderstore.io/c/lethal-company/p/malco/CleaningCompany/)
+
 ## V 2.8.3
 - additions
     - Bigger lungs new behaviours (increased stamina regen decreased jump cost)

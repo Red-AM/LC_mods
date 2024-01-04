@@ -18,18 +18,22 @@ Once you load into a level you can hover over the monitor and click away.
  \> Reverse radar target order (Exact behaviour depends on config setting)<br><br>
 
 # Changelog:
-### Version: 1.0.7:
+### Version 1.0.8:
+* Fix support for custom moons<br>
+ \> Updated .NET Framework to v4.7.1
+* Fixed NPE error (Old Reference) after v1.0.7 update
+### Version 1.0.7:
 * Added additional optional key bind
 * Added config option to decide behaviour of the new optional key bind<br>
  \> True: When key bind is pressed, the quick switch will go in the reverse order<br>
  \> False: When key bind is pressed, the previous radar target will be selected
 * Radar boosters held by players will now get priority over switch camera key bind
-### Version: 1.0.6:
+### Version 1.0.6:
 * Added optional key bind to switch monitor targets (def. unset)
 * Added option to enable / disable keybind tooltips when hovering over the monitor
 ### Version 1.0.5:
 * Fixed NPE error (Old Reference) after leaving a lobby and joining another one [Affects all versions 1.0.5>]
-### Version: 1.0.4:
+### Version 1.0.4:
 * Added support for 3rd party plugins to disable/enable the plugin features
 * Added two new monitor pointer images (Cross, Dot)
 * Added two new config values:

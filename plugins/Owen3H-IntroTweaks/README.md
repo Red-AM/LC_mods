@@ -1,44 +1,20 @@
 # IntroTweaks
-A configurable, quality of life mod for Lethal Company intro/menu screens.
+A highly configurable solution to all of your intro/menu problems.
 
 ## Installation
 1. Install [BepInEx](https://github.com/BepInEx/BepInEx/releases) v5 into your game.
 2. Download `IntroTweaks.dll` and drop it into `Lethal Company\BepInEx\plugins`.
 
-## Changelog History
-### v1.0.0
-- Skips straight into the selected mode. (Online/LAN)
-- Can automatically press the 'Host' button once in the menu.
-- Removes the LAN warning - no need to hit 'Confirm' every time.
+## Features
+- Skips the **Unity** and **Zeekerss** splash screens!
+- Seamlessly skips the boot and launch mode screens.
+- Applies various fixes to the menu canvas and its panels.
+- Aligns the main menu buttons with each other.
+- Provides other useful options (startup display, auto select host, remove credits button).
+- Improves look of the version text and moves it to the bottom center.
+- Compatible with **LethalExpansion** and **MoreCompany**.
 
-### v1.1.0
-- Menu 'OS boot' animation is now skipped. You can revert this via the config.
-- Replaced menu version text - able to be customized.
-- Fixed LAN warning not being removed when AutoSelectHost was false.
-- Changed mod name from 'LC-IntroTweaks' to 'IntroTweaks' in PluginMetadata.
+## Important Notes
+This mod will hide the original game version text, other mods should not be editing it directly - please take that up with them.
 
-### v1.2.0
-**General**
-- Launch skipping is now more seamless - the greenish "transition" panel has been disabled.
-- Stopped panels overlapping when pressing the 'Host' button. (how other buttons work already)
-- Added ability to remove the 'News' panel. Defaults to Off.
-- Added ability to remove the 'Launched in LAN mode' text. Defaults to On.
-- Added config option for removing the LAN warning. Defaults to On.
-- Config option `bAutoSelectHost` is now Off by default.
-
-**Version Text**
-- Fixed version text being wrapped.
-- Added config options (X, Y) to move the position of the version text. 
-- Setting the anchor position of version text is now done once instead of every frame.
-- Version text now ONLY shows on the main menu. Not settings, credits etc.
-
-### v1.2.1
-- Added config option to toggle the version text. Credit - [RectangularObject](https://github.com/Owen3H/IntroTweaks/pull/1).
-- BepinExPack now specified as a dependency.
-- New VCR-style icon.
-
-### v1.2.2
-- The ship speaker 'first day' SFX can now be disabled via `bDisableFirstDaySFX`.
-- Added config option `sVersionTextFormat` to display either the full game version or a shortened one.
-- Added config option `fVersionTextSize` to control the font size of the version text.
-- Fixed custom version text not showing - it was accidentally off by default (oops).
+Unless disabled, IntroTweaks aligns the menu buttons by default which other mods may not respect if they implement their own buttons.
